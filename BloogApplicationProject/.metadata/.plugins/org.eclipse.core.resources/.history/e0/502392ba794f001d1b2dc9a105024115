@@ -1,0 +1,33 @@
+package com.codewithamrit.blog.services;
+
+import java.util.List;
+
+import com.codewithamrit.blog.model.Post;
+import com.codewithamrit.blog.payloads.PostDto;
+
+public interface PostService {
+	
+	//create
+	Post createPost(PostDto postDto,Integer userId,Integer c0ategoryId);
+	//update
+	Post updatePost(PostDto postDto,Integer userId);//fun(newdata,olduserid)
+	
+	// get all post  by id
+	
+	Post getUserById(Integer postId);
+	
+	//get  all  post
+	List<Post> getAllposts();
+	
+	// delete post
+	void delete(Integer postId);
+	
+	//get post by category
+	List<Post> getPostByCategory(Integer categoryId);
+	
+	//get all post by user
+	List<Post> getPostsByUser(Integer userId);
+	//search post
+	List<Post> serchPosts(String keyword);
+
+}

@@ -1,0 +1,5 @@
+package com.codewithamrit.blog.security;
+
+public class JwtAuthenticationEntryPoint {
+
+}

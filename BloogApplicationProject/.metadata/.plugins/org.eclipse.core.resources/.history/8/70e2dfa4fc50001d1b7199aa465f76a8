@@ -1,0 +1,5 @@
+package com.codewithamrit.blog.config;
+
+public class SecuritConfig {
+
+}

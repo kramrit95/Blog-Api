@@ -1,0 +1,5 @@
+package com.codewithamrit.blog.payloads;
+
+public class RoleDto {
+
+}

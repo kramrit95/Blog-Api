@@ -1,0 +1,5 @@
+package com.codewithamrit.blog.repositories;
+
+public class RoleRepo {
+
+}

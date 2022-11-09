@@ -1,0 +1,20 @@
+package com.codewithamrit.blog.controllers;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.codewithamrit.blog.model.Comment;
+import com.codewithamrit.blog.payloads.CommentDto;
+
+@RestController
+@RequestMapping("/api/")
+public class CommentController {
+	@PostMapping("/posts/{postId}/comments")
+	public ResponseEntity<CommentDto> createComment(@RequestBody Comment comment)
+	{
+		
+	}
+}

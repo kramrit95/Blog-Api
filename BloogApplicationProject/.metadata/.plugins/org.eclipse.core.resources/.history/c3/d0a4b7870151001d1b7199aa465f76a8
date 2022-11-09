@@ -1,0 +1,5 @@
+package com.codewithamrit.blog.model;
+
+public class Role {
+
+}

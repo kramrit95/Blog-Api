@@ -1,0 +1,5 @@
+package com.codewithamrit.blog.repositories;
+
+public interface CommentRepo {
+
+}

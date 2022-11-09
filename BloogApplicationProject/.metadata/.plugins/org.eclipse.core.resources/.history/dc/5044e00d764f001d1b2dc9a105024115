@@ -1,0 +1,24 @@
+//package com.codewithamrit.blog.payloads;
+//
+//import java.util.Date;
+//
+//import javax.persistence.ManyToOne;
+//
+//import com.codewithamrit.blog.model.Category;
+//import com.codewithamrit.blog.model.User;
+//
+//public class PostDto {
+//	
+//
+//	 private  String title;
+//	 
+//	 private String content;
+//	 private String imageName;
+//	 private Date addDate;
+//	 private Category category;
+//	 private User user;
+//
+//	 
+//	// private String imageName="default.png";
+//	 
+//}
